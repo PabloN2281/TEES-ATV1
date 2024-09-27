@@ -47,3 +47,5 @@ def calculadora():
         if proxima_operacao.lower() != 's':
             break
 
+
+calculadora()

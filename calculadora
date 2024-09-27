@@ -43,5 +43,7 @@ def calculadora():
         else:
             print("Opção inválida, por favor selecione uma opção válida.")
 
-      
+        proxima_operacao = input("Deseja realizar outra operação? (s/n): ")
+        if proxima_operacao.lower() != 's':
+            break
 
